@@ -1,0 +1,8 @@
+@import '../../../App/_variables.scss';
+
+.card {
+  background-color: $color-white;
+  border: solid 1px $color-dark;
+  border-radius: $border-radius;
+  flex-direction: column;
+}

@@ -1,0 +1,12 @@
+@import '../../../../App/_variables.scss';
+
+.profile-card__header {
+  border-radius: $border-radius $border-radius 0 0;
+  height: 5rem;
+
+  img {
+    border-radius: $border-radius $border-radius 0 0;
+    object-fit: cover;
+    width: 18.5rem;
+  }
+}

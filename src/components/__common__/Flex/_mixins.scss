@@ -1,0 +1,36 @@
+// mixins
+@mixin flex {
+  &.flex-1 {
+    flex: 1;
+  }
+
+  &.flex-2 {
+    flex: 2;
+  }
+
+  &.flex-3 {
+    flex: 3;
+  }
+}
+
+@mixin alignItems {
+  $alignments: 'center', 'start', 'end', 'flex-start', 'flex-end', 'self-start',
+    'self-end';
+  @for $i from 1 through length($alignments) {
+    $alignment: #{nth($alignments, $i)};
+    &.align-items-#{$alignment} {
+      align-items: $alignment;
+    }
+  }
+}
+
+@mixin justifyContent {
+  $justifications: 'center', 'start', 'end', 'flex-start', 'flex-end', 'left',
+    'right', 'normal', 'space-between', 'space-around', 'space-evenly';
+  @for $i from 1 through length($justifications) {
+    $justification: #{nth($justifications, $i)};
+    &.justify-content-#{$justification} {
+      justify-content: $justification;
+    }
+  }
+}

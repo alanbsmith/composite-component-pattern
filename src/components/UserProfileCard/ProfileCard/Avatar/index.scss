@@ -1,0 +1,17 @@
+@import '../../../../App/_variables.scss';
+
+.avatar {
+  border: solid 0.125rem $color-white;
+  border-radius: 50%;
+  height: 4.5rem;
+  position: absolute;
+  left: 0.5rem;
+  top: -2.25rem;
+  width: 4.5rem;
+
+  img {
+    object-fit: cover;
+    width: 4.5rem;
+    border-radius: 50%;
+  }
+}

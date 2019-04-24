@@ -1,0 +1,20 @@
+@import '../../../App/_variables.scss';
+
+.button {
+  background: $color-white;
+  border-radius: 2rem;
+  border: solid 2px $color-primary;
+  color: $color-primary;
+  cursor: pointer;
+  font-size: $text-sm;
+  font-weight: $bold;
+  padding: 0.5rem 1rem;
+  &:hover {
+    background: rgba($color-primary, 0.1);
+  }
+
+  &.primary {
+    background: $color-primary;
+    color: $color-white;
+  }
+}

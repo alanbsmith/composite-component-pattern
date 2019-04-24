@@ -1,0 +1,13 @@
+@import '../mixins';
+
+.flex-item {
+  display: flex;
+  flex: initial;
+  @include flex;
+  @include alignItems;
+  @include justifyContent;
+
+  &.column {
+    flex-direction: column;
+  }
+}

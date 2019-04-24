@@ -1,0 +1,33 @@
+@import '../../../App/_variables.scss';
+
+.text {
+  display: block;
+  font-size: $text-md;
+  line-height: 1.5em;
+  margin-bottom: 0;
+  word-wrap: break-word;
+
+  &span {
+    display: inline-block;
+  }
+
+  &.small {
+    font-size: $text-sm;
+  }
+
+  &.large {
+    font-size: $text-lg;
+  }
+
+  &.xlarge {
+    font-size: $text-xl;
+  }
+
+  &.bold {
+    font-weight: $bold;
+  }
+
+  &.stretch {
+    text-align: justify;
+  }
+}

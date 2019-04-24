@@ -1,0 +1,10 @@
+@import '../../../App/_variables.scss';
+
+.heading {
+  font-weight: $bold;
+  margin: 0;
+
+  &h3 {
+    font-size: $text-xl;
+  }
+}
