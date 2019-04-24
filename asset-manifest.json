@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/composite-component-pattern/static/css/main.584a5270.chunk.css",
+    "main.js": "/composite-component-pattern/static/js/main.4a3e0cc0.chunk.js",
+    "main.js.map": "/composite-component-pattern/static/js/main.4a3e0cc0.chunk.js.map",
+    "runtime~main.js": "/composite-component-pattern/static/js/runtime~main.e54a675a.js",
+    "runtime~main.js.map": "/composite-component-pattern/static/js/runtime~main.e54a675a.js.map",
+    "static/js/2.a8867e91.chunk.js": "/composite-component-pattern/static/js/2.a8867e91.chunk.js",
+    "static/js/2.a8867e91.chunk.js.map": "/composite-component-pattern/static/js/2.a8867e91.chunk.js.map",
+    "index.html": "/composite-component-pattern/index.html",
+    "precache-manifest.5ed1a456c684184138f0aa9ab5ed36cc.js": "/composite-component-pattern/precache-manifest.5ed1a456c684184138f0aa9ab5ed36cc.js",
+    "service-worker.js": "/composite-component-pattern/service-worker.js",
+    "static/css/main.584a5270.chunk.css.map": "/composite-component-pattern/static/css/main.584a5270.chunk.css.map"
+  }
+}
